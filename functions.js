@@ -1,4 +1,4 @@
-*use strict*
+"use strict"
   console.log("One ring to rule them all");
 
   let myInter = [[-5,-4],[-3,-2],[1,2],[3,5],[8,9]];
