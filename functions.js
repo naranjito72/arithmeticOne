@@ -19,7 +19,6 @@ const showResult = () => console.log(myIntervals(myInter, myRem));
 
 // CORS
  var http_request;
- http_request = new XMLHTTPRequest();
+ http_request = new XMLHttpRequest();
  http_request.onreadystatechange = function () { /* .. */};
  http_request.open("GET", "https://github.com/naranjito72/arithmeticOne.git");
- 
