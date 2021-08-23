@@ -3,7 +3,7 @@
  var http_request;
  http_request = new XMLHttpRequest();
  http_request.onreadystatechange = function () { /* .. */};
- http_request.open("GET", "https://github.com/naranjito72/arithmeticOne.git");
+ http_request.open("GET", "https://naranjito72.github.io/arithmeticOne/");
  http_request.setRequestHeader("Content-Type", "application/json");
 
   let myInter = [[-5,-4],[-3,-2],[1,2],[3,5],[8,9]];
