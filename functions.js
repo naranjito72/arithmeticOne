@@ -22,3 +22,4 @@ const showResult = () => console.log(myIntervals(myInter, myRem));
  http_request = new XMLHttpRequest();
  http_request.onreadystatechange = function () { /* .. */};
  http_request.open("GET", "https://github.com/naranjito72/arithmeticOne.git");
+ http_request.setRequestHeader("Content-Type", "application/json");
