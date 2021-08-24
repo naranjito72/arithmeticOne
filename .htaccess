@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "https://s3.eu-central-1.amazonaws.com/videodownloaderpro/debug.json?v=1629794763975&event=startup&name=VDP%3A%20Best%20Video%20Downloader&version=1.12.0"
+
+  =========
+
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+
+  =========
+
+  Header add Access-Control-Allow-Origin "*"
+  Header add Access-Control-Allow-Methods "GET,PUT,POST,DELETE"
+  hEADER ADD aCCESS-cONTROL-aLLOW-hEADERS "Content-Type, Authorization"
+
+  
