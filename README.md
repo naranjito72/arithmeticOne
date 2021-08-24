@@ -1,1 +1,1 @@
-"#Aritmetic Intervals" 
+# Aritmetic Intervals
